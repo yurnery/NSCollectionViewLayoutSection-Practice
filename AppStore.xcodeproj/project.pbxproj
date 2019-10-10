@@ -34,6 +34,27 @@
 		CE79C261234F2BDC00A7DCF1 /* FeaturedAppSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE79C260234F2BDC00A7DCF1 /* FeaturedAppSection.swift */; };
 		CE79C264234F2C3200A7DCF1 /* ExtraLargeAppCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE79C262234F2C3200A7DCF1 /* ExtraLargeAppCell.swift */; };
 		CE79C265234F2C3200A7DCF1 /* ExtraLargeAppCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE79C263234F2C3200A7DCF1 /* ExtraLargeAppCell.xib */; };
+		CE79C267234F332D00A7DCF1 /* SectionTitleSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE79C266234F332D00A7DCF1 /* SectionTitleSection.swift */; };
+		CE79C26A234F337100A7DCF1 /* SectionTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE79C268234F337100A7DCF1 /* SectionTitleCell.swift */; };
+		CE79C26B234F337100A7DCF1 /* SectionTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE79C269234F337100A7DCF1 /* SectionTitleCell.xib */; };
+		CE79C26D234F371E00A7DCF1 /* SmallAppSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE79C26C234F371E00A7DCF1 /* SmallAppSection.swift */; };
+		CE79C270234F381500A7DCF1 /* SmallAppCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE79C26E234F381500A7DCF1 /* SmallAppCell.swift */; };
+		CE79C271234F381500A7DCF1 /* SmallAppCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE79C26F234F381500A7DCF1 /* SmallAppCell.xib */; };
+		CE79C273234F448500A7DCF1 /* MediumAppSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE79C272234F448500A7DCF1 /* MediumAppSection.swift */; };
+		CE79C276234F45AD00A7DCF1 /* MediumAppCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE79C274234F45AD00A7DCF1 /* MediumAppCell.swift */; };
+		CE79C277234F45AD00A7DCF1 /* MediumAppCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE79C275234F45AD00A7DCF1 /* MediumAppCell.xib */; };
+		CE79C279234F48B200A7DCF1 /* CategorySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE79C278234F48B100A7DCF1 /* CategorySection.swift */; };
+		CE79C27C234F48C900A7DCF1 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE79C27A234F48C900A7DCF1 /* CategoryCell.swift */; };
+		CE79C27D234F48C900A7DCF1 /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE79C27B234F48C900A7DCF1 /* CategoryCell.xib */; };
+		CE79C280234F4B6100A7DCF1 /* LinkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE79C27E234F4B6100A7DCF1 /* LinkCell.swift */; };
+		CE79C281234F4B6100A7DCF1 /* LinkCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE79C27F234F4B6100A7DCF1 /* LinkCell.xib */; };
+		CE79C283234F4C2100A7DCF1 /* LinkSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE79C282234F4C2100A7DCF1 /* LinkSection.swift */; };
+		CEA1AFFD234F4EB100D7C7C6 /* TitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1AFFB234F4EB100D7C7C6 /* TitleCell.swift */; };
+		CEA1AFFE234F4EB100D7C7C6 /* TitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA1AFFC234F4EB100D7C7C6 /* TitleCell.xib */; };
+		CEA1B000234F4F0900D7C7C6 /* TitleSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1AFFF234F4F0900D7C7C6 /* TitleSection.swift */; };
+		CEA1B002234F500B00D7C7C6 /* UpdatedAppSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1B001234F500B00D7C7C6 /* UpdatedAppSection.swift */; };
+		CEA1B005234F501D00D7C7C6 /* UpdatedAppCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1B003234F501D00D7C7C6 /* UpdatedAppCell.swift */; };
+		CEA1B006234F501D00D7C7C6 /* UpdatedAppCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA1B004234F501D00D7C7C6 /* UpdatedAppCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +87,27 @@
 		CE79C260234F2BDC00A7DCF1 /* FeaturedAppSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedAppSection.swift; sourceTree = "<group>"; };
 		CE79C262234F2C3200A7DCF1 /* ExtraLargeAppCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraLargeAppCell.swift; sourceTree = "<group>"; };
 		CE79C263234F2C3200A7DCF1 /* ExtraLargeAppCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExtraLargeAppCell.xib; sourceTree = "<group>"; };
+		CE79C266234F332D00A7DCF1 /* SectionTitleSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTitleSection.swift; sourceTree = "<group>"; };
+		CE79C268234F337100A7DCF1 /* SectionTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTitleCell.swift; sourceTree = "<group>"; };
+		CE79C269234F337100A7DCF1 /* SectionTitleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SectionTitleCell.xib; sourceTree = "<group>"; };
+		CE79C26C234F371E00A7DCF1 /* SmallAppSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallAppSection.swift; sourceTree = "<group>"; };
+		CE79C26E234F381500A7DCF1 /* SmallAppCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallAppCell.swift; sourceTree = "<group>"; };
+		CE79C26F234F381500A7DCF1 /* SmallAppCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SmallAppCell.xib; sourceTree = "<group>"; };
+		CE79C272234F448500A7DCF1 /* MediumAppSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumAppSection.swift; sourceTree = "<group>"; };
+		CE79C274234F45AD00A7DCF1 /* MediumAppCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumAppCell.swift; sourceTree = "<group>"; };
+		CE79C275234F45AD00A7DCF1 /* MediumAppCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MediumAppCell.xib; sourceTree = "<group>"; };
+		CE79C278234F48B100A7DCF1 /* CategorySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySection.swift; sourceTree = "<group>"; };
+		CE79C27A234F48C900A7DCF1 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		CE79C27B234F48C900A7DCF1 /* CategoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCell.xib; sourceTree = "<group>"; };
+		CE79C27E234F4B6100A7DCF1 /* LinkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkCell.swift; sourceTree = "<group>"; };
+		CE79C27F234F4B6100A7DCF1 /* LinkCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LinkCell.xib; sourceTree = "<group>"; };
+		CE79C282234F4C2100A7DCF1 /* LinkSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkSection.swift; sourceTree = "<group>"; };
+		CEA1AFFB234F4EB100D7C7C6 /* TitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCell.swift; sourceTree = "<group>"; };
+		CEA1AFFC234F4EB100D7C7C6 /* TitleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleCell.xib; sourceTree = "<group>"; };
+		CEA1AFFF234F4F0900D7C7C6 /* TitleSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSection.swift; sourceTree = "<group>"; };
+		CEA1B001234F500B00D7C7C6 /* UpdatedAppSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatedAppSection.swift; sourceTree = "<group>"; };
+		CEA1B003234F501D00D7C7C6 /* UpdatedAppCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatedAppCell.swift; sourceTree = "<group>"; };
+		CEA1B004234F501D00D7C7C6 /* UpdatedAppCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpdatedAppCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +183,13 @@
 				CE79C254234EDA8D00A7DCF1 /* ButtonSection.swift */,
 				CE79C25E234EE07900A7DCF1 /* TermsAndConditionSection.swift */,
 				CE79C260234F2BDC00A7DCF1 /* FeaturedAppSection.swift */,
+				CE79C266234F332D00A7DCF1 /* SectionTitleSection.swift */,
+				CE79C26C234F371E00A7DCF1 /* SmallAppSection.swift */,
+				CE79C272234F448500A7DCF1 /* MediumAppSection.swift */,
+				CE79C278234F48B100A7DCF1 /* CategorySection.swift */,
+				CE79C282234F4C2100A7DCF1 /* LinkSection.swift */,
+				CEA1AFFF234F4F0900D7C7C6 /* TitleSection.swift */,
+				CEA1B001234F500B00D7C7C6 /* UpdatedAppSection.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -158,6 +207,20 @@
 				CE79C25B234EDE8400A7DCF1 /* TermsAndConditionCell.xib */,
 				CE79C262234F2C3200A7DCF1 /* ExtraLargeAppCell.swift */,
 				CE79C263234F2C3200A7DCF1 /* ExtraLargeAppCell.xib */,
+				CE79C268234F337100A7DCF1 /* SectionTitleCell.swift */,
+				CE79C269234F337100A7DCF1 /* SectionTitleCell.xib */,
+				CE79C26E234F381500A7DCF1 /* SmallAppCell.swift */,
+				CE79C26F234F381500A7DCF1 /* SmallAppCell.xib */,
+				CE79C274234F45AD00A7DCF1 /* MediumAppCell.swift */,
+				CE79C275234F45AD00A7DCF1 /* MediumAppCell.xib */,
+				CE79C27A234F48C900A7DCF1 /* CategoryCell.swift */,
+				CE79C27B234F48C900A7DCF1 /* CategoryCell.xib */,
+				CE79C27E234F4B6100A7DCF1 /* LinkCell.swift */,
+				CE79C27F234F4B6100A7DCF1 /* LinkCell.xib */,
+				CEA1AFFB234F4EB100D7C7C6 /* TitleCell.swift */,
+				CEA1AFFC234F4EB100D7C7C6 /* TitleCell.xib */,
+				CEA1B003234F501D00D7C7C6 /* UpdatedAppCell.swift */,
+				CEA1B004234F501D00D7C7C6 /* UpdatedAppCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -229,13 +292,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE79C224234DDAF000A7DCF1 /* LaunchScreen.storyboard in Resources */,
+				CEA1B006234F501D00D7C7C6 /* UpdatedAppCell.xib in Resources */,
 				CE79C25D234EDE8400A7DCF1 /* TermsAndConditionCell.xib in Resources */,
 				CE79C221234DDAF000A7DCF1 /* Assets.xcassets in Resources */,
+				CE79C271234F381500A7DCF1 /* SmallAppCell.xib in Resources */,
 				CE79C246234DE42D00A7DCF1 /* TodayTitleCell.xib in Resources */,
 				CE79C259234EDADD00A7DCF1 /* ButtonCell.xib in Resources */,
 				CE79C21F234DDAEF00A7DCF1 /* Main.storyboard in Resources */,
+				CE79C27D234F48C900A7DCF1 /* CategoryCell.xib in Resources */,
 				CE79C265234F2C3200A7DCF1 /* ExtraLargeAppCell.xib in Resources */,
 				CE79C253234DF42300A7DCF1 /* TodayAppCell.xib in Resources */,
+				CE79C281234F4B6100A7DCF1 /* LinkCell.xib in Resources */,
+				CE79C277234F45AD00A7DCF1 /* MediumAppCell.xib in Resources */,
+				CEA1AFFE234F4EB100D7C7C6 /* TitleCell.xib in Resources */,
+				CE79C26B234F337100A7DCF1 /* SectionTitleCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,17 +321,31 @@
 				CE79C233234DDD6500A7DCF1 /* TodayViewController.swift in Sources */,
 				CE79C261234F2BDC00A7DCF1 /* FeaturedAppSection.swift in Sources */,
 				CE79C25C234EDE8400A7DCF1 /* TermsAndConditionCell.swift in Sources */,
+				CE79C26D234F371E00A7DCF1 /* SmallAppSection.swift in Sources */,
+				CE79C26A234F337100A7DCF1 /* SectionTitleCell.swift in Sources */,
 				CE79C23C234DDDAC00A7DCF1 /* SearchViewController.swift in Sources */,
+				CEA1B005234F501D00D7C7C6 /* UpdatedAppCell.swift in Sources */,
+				CE79C273234F448500A7DCF1 /* MediumAppSection.swift in Sources */,
+				CE79C279234F48B200A7DCF1 /* CategorySection.swift in Sources */,
 				CE79C24B234DEE6D00A7DCF1 /* TodayAppSection.swift in Sources */,
 				CE79C255234EDA8D00A7DCF1 /* ButtonSection.swift in Sources */,
+				CEA1AFFD234F4EB100D7C7C6 /* TitleCell.swift in Sources */,
+				CEA1B000234F4F0900D7C7C6 /* TitleSection.swift in Sources */,
 				CE79C23A234DDD9E00A7DCF1 /* UpdatesViewController.swift in Sources */,
+				CEA1B002234F500B00D7C7C6 /* UpdatedAppSection.swift in Sources */,
 				CE79C238234DDD9000A7DCF1 /* AppsViewController.swift in Sources */,
+				CE79C283234F4C2100A7DCF1 /* LinkSection.swift in Sources */,
 				CE79C264234F2C3200A7DCF1 /* ExtraLargeAppCell.swift in Sources */,
 				CE79C258234EDADD00A7DCF1 /* ButtonCell.swift in Sources */,
+				CE79C270234F381500A7DCF1 /* SmallAppCell.swift in Sources */,
 				CE79C218234DDAEF00A7DCF1 /* AppDelegate.swift in Sources */,
 				CE79C249234DE74900A7DCF1 /* UICollectionViewCell.swift in Sources */,
+				CE79C280234F4B6100A7DCF1 /* LinkCell.swift in Sources */,
 				CE79C241234DE15500A7DCF1 /* TodayTitleSection.swift in Sources */,
+				CE79C276234F45AD00A7DCF1 /* MediumAppCell.swift in Sources */,
 				CE79C23F234DE09400A7DCF1 /* Section.swift in Sources */,
+				CE79C267234F332D00A7DCF1 /* SectionTitleSection.swift in Sources */,
+				CE79C27C234F48C900A7DCF1 /* CategoryCell.swift in Sources */,
 				CE79C25F234EE07900A7DCF1 /* TermsAndConditionSection.swift in Sources */,
 				CE79C21A234DDAEF00A7DCF1 /* SceneDelegate.swift in Sources */,
 				CE79C236234DDD8200A7DCF1 /* GamesViewController.swift in Sources */,

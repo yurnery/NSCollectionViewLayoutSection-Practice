@@ -9,10 +9,14 @@
 import UIKit
 
 class ExtraLargeAppCell: UICollectionViewCell {
-
+    @IBOutlet weak var captionLabel: UILabel!
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var subtitleLabel: UILabel!
+    @IBOutlet weak var thumbnailView: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        thumbnailView.layer.cornerRadius = 8
     }
 
 }

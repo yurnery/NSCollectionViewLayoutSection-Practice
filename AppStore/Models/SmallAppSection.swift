@@ -1,5 +1,5 @@
 //
-//  FeaturedAppSection.swift
+//  SmallAppSection.swift
 //  AppStore
 //
 //  Created by yeteam on 2019/10/10.
@@ -8,20 +8,21 @@
 
 import UIKit
 
-struct FeaturedAppSection: Section {
-    let numberfOfItems: Int = 5
+struct SmallAppSection: Section {
+    let numberfOfItems: Int = 9
+    
     func layoutSection() -> NSCollectionLayoutSection {
         let itemSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1), heightDimension: .fractionalHeight(1))
         let item = NSCollectionLayoutItem(layoutSize: itemSize)
-        let groupSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(0.92), heightDimension: .fractionalHeight(0.4))
-        let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitems: [item])
+        let groupSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(0.92), heightDimension: .fractionalHeight(0.3))
+        let group = NSCollectionLayoutGroup.vertical(layoutSize: groupSize, subitem: item, count: 3)
         let section = NSCollectionLayoutSection(group: group)
         section.orthogonalScrollingBehavior = .groupPagingCentered
         return section
     }
     
     func configureCell(collectionView: UICollectionView, indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: ExtraLargeAppCell.identifier, for: indexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: SmallAppCell.identifier, for: indexPath)
         return cell
     }
 }
