@@ -23,7 +23,10 @@ class TodayViewController: UIViewController {
         TodayAppSection(),
         TodayAppSection(),
         TodayAppSection(),
-        
+        ButtonSection(title: "Redeem"),
+        ButtonSection(title: "Send Gift"),
+        ButtonSection(title: "Add Funds to Apple ID"),
+        TermsAndConditionSection()
     ]
     
     lazy var collectionViewLayout: UICollectionViewLayout = {
@@ -39,9 +42,9 @@ class TodayViewController: UIViewController {
         collectionView.backgroundColor = .systemBackground
         collectionView.delegate = self
         collectionView.dataSource = self
-        
-        collectionView.register(UINib(nibName: TodayTitleCell.identifier, bundle: nil), forCellWithReuseIdentifier: TodayTitleCell.identifier)
-        collectionView.register(UINib(nibName: TodayAppCell.identifier, bundle: nil), forCellWithReuseIdentifier: TodayAppCell.identifier)
+        [TodayTitleCell.self, TodayAppCell.self, ButtonCell.self, TermsAndConditionCell.self].forEach {
+            collectionView.register(UINib(nibName: $0.identifier, bundle: nil), forCellWithReuseIdentifier: $0.identifier)
+        }
         return collectionView
     }()
     
@@ -50,8 +53,6 @@ class TodayViewController: UIViewController {
         super.viewDidLoad()
         setupUI()
     }
-    
-    
     
     private func setupUI() {
         collectionView.translatesAutoresizingMaskIntoConstraints = false
