@@ -87,7 +87,6 @@ class GamesViewController: UIViewController {
         ])
     }
     
-    
 }
 
 extension GamesViewController: UICollectionViewDataSource {
