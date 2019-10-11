@@ -1,0 +1,2 @@
+# NSCollectionViewLayoutSection-Practice
+iOS13 新增的NSCollectionViewLayoutSection练习, 实现和界面都参考 https://github.com/kishikawakatsumi/AppStore-Clone-CollectionViewCompositionalLayouts, 只是修改了orthogonalScrollingBehavior导致的 bug 
