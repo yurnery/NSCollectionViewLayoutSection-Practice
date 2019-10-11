@@ -19,12 +19,12 @@
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Link Text" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wkx-Dq-W2S">
                         <rect key="frame" x="20" y="74.5" width="340" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <color key="textColor" systemColor="linkColor" red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="textColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QdC-d8-7Hi">
-                        <rect key="frame" x="4" y="169.5" width="372" height="0.5"/>
-                        <color key="backgroundColor" systemColor="separatorColor" red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                        <rect key="frame" x="20" y="169.5" width="340" height="0.5"/>
+                        <color key="backgroundColor" systemColor="separatorColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="0.5" id="ABi-c8-OWx"/>
                         </constraints>
@@ -34,10 +34,10 @@
             <constraints>
                 <constraint firstItem="Wkx-Dq-W2S" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="90F-pJ-SY0"/>
                 <constraint firstAttribute="bottom" secondItem="QdC-d8-7Hi" secondAttribute="bottom" id="Gea-Fb-0WR"/>
-                <constraint firstAttribute="trailing" secondItem="QdC-d8-7Hi" secondAttribute="trailing" constant="4" id="MwG-28-3zs"/>
+                <constraint firstAttribute="trailing" secondItem="QdC-d8-7Hi" secondAttribute="trailing" constant="20" id="MwG-28-3zs"/>
                 <constraint firstAttribute="trailing" secondItem="Wkx-Dq-W2S" secondAttribute="trailing" constant="20" id="OVO-W7-rR2"/>
                 <constraint firstItem="Wkx-Dq-W2S" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="bnS-L2-ZGw"/>
-                <constraint firstItem="QdC-d8-7Hi" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="4" id="dZP-b1-3r9"/>
+                <constraint firstItem="QdC-d8-7Hi" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="dZP-b1-3r9"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <size key="customSize" width="380" height="170"/>

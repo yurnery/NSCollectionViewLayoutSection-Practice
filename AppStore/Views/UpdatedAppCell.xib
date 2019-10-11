@@ -25,8 +25,8 @@
                         </constraints>
                     </view>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8AQ-U1-BnS">
-                        <rect key="frame" x="4" y="181.5" width="436" height="0.5"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <rect key="frame" x="20" y="181.5" width="404" height="0.5"/>
+                        <color key="backgroundColor" systemColor="separatorColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="0.5" id="OSs-AG-8RA"/>
                         </constraints>
@@ -68,7 +68,7 @@
                 <constraint firstAttribute="bottom" secondItem="8AQ-U1-BnS" secondAttribute="bottom" id="NbG-yz-Ks9"/>
                 <constraint firstItem="mwE-Ad-J76" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="16" id="Ojh-Yo-yej"/>
                 <constraint firstItem="8AQ-U1-BnS" firstAttribute="top" secondItem="Vuf-0Y-WlX" secondAttribute="bottom" constant="15" id="SST-Ie-a9t"/>
-                <constraint firstItem="8AQ-U1-BnS" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="4" id="Z78-In-NEU"/>
+                <constraint firstItem="8AQ-U1-BnS" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="Z78-In-NEU"/>
                 <constraint firstItem="fIA-UY-NPe" firstAttribute="leading" secondItem="mwE-Ad-J76" secondAttribute="trailing" constant="8" id="ZaG-4T-BJ7"/>
                 <constraint firstItem="mwE-Ad-J76" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="av1-2v-XA7"/>
                 <constraint firstAttribute="trailing" secondItem="cEl-Yk-15U" secondAttribute="trailing" constant="20" id="avl-E3-V0h"/>
@@ -78,7 +78,7 @@
                 <constraint firstItem="cEl-Yk-15U" firstAttribute="centerY" secondItem="mwE-Ad-J76" secondAttribute="centerY" id="nyR-Gp-2xn"/>
                 <constraint firstItem="88v-pf-k4G" firstAttribute="top" secondItem="fIA-UY-NPe" secondAttribute="bottom" constant="8" id="oVf-1E-U6X"/>
                 <constraint firstItem="Vuf-0Y-WlX" firstAttribute="trailing" secondItem="cEl-Yk-15U" secondAttribute="trailing" id="qOY-Di-4SJ"/>
-                <constraint firstAttribute="trailing" secondItem="8AQ-U1-BnS" secondAttribute="trailing" constant="4" id="wH4-pc-L67"/>
+                <constraint firstAttribute="trailing" secondItem="8AQ-U1-BnS" secondAttribute="trailing" constant="20" id="wH4-pc-L67"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <size key="customSize" width="444" height="182"/>
